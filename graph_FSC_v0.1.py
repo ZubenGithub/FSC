@@ -28,7 +28,7 @@ plt.plot(X,Y)
 plt.xlabel("1/Resolution ($\AA$)")
 plt.ylabel("Correlation")
 
-plt.title(title_and_filename)
+#plt.title(title_and_filename)
 
 plt.hlines(y=0.143, xmin=min(X), xmax=max(X), colors='red')
 plt.savefig("{0}.png".format(title_and_filename))
